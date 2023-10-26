@@ -1,0 +1,58 @@
+html {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  text-align: center;
+  background-color: #b03838;
+  padding: 20px;
+}
+
+#container {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #14666f;
+  padding: 20px;
+  border: 1px solid #acaaa8;
+  box-shadow: 5px 10px 11px gray;
+
+}
+
+#logo {
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+
+}
+
+#titolo {
+  font-size: 24px;
+  margin-top: 10px;
+  color: white;
+}
+
+#sotto-titoli {
+  margin-top: 20px;
+}
+
+#sotto-titoli a {
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #f2f4f6;
+  font-weight: bold;
+}
+
+/* HEADER */
+
+/* MAIN */
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
