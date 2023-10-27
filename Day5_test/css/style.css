@@ -1,0 +1,151 @@
+/* Your styles here */
+
+body {
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: "Open Sans";
+  line-height: 1.65;
+}
+
+button {
+  background-color: #f04c2f;
+  font-family: Montserrat;
+  font-weight: bold; 
+  border: none;
+  border-radius: 3px;
+  padding: 10px 16px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5 , h6 {
+  font-family: Montserrat;
+  font-weight: bold; 
+}
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+a {
+  color: white;
+}
+
+i {
+  font-style: italic;
+}
+
+section {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100px;
+}
+
+header img {
+  height: 55px;
+}
+
+.heading {
+  color: #25a2c3;
+  font-family: Montserrat;
+  line-height: 1.5;
+}
+
+#web-container {
+  background-image: url('../images/banner.jpg');
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#web-container title {
+  background-image: url('../images/banner.jpg');
+  text-align: center;
+  font-size: 2rem;
+}
+
+#info-container {
+  text-align: center;
+}
+
+#info-container img {
+  border-radius: 50%;
+}
+
+#references {
+  background-color: #e22d0e;
+  color: white;
+  text-align: center;
+}
+
+.image-card {
+  border: 1px solid #dee1e3;
+  border-radius: 4px;
+  text-align: center;
+  width: 430px;
+}
+
+.image-card h5 {
+  margin-top: 10px;
+}
+
+.image-card img {
+  width: 430px;
+}
+
+.image-card p {
+  margin-bottom: 10px;
+}
+
+
+.image-card h5, .image-card p { 
+  padding: 10px 0;
+}
+
+#card-container {
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: #25a2c3;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+}
+
+.divider {
+  width: 30%;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-self: center;
+  margin: 15px 0;
+}
